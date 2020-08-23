@@ -39,6 +39,9 @@ public class Day03_LocatorsGiris {
         WebElement signInButonu = driver.findElement(By.name("commit"));
         signInButonu.click();
 
+
+
+
         String baslik = driver.getTitle();
         if (baslik.equals("Address Book")){
             System.out.println("Giris Basarili");
